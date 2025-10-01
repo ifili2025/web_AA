@@ -1,0 +1,3 @@
+;Igor;
+
+//Ees ja perekonnanimi, visiidi kellaeg, eraldi leht kus kõik andmed tulevad välja
