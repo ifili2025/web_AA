@@ -1,0 +1,30 @@
+{
+  "name": "web_aa",
+  "version": "1.0.0",
+  "description": "webiprogrammeerimise kursuse loodud veeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ifili2025@github.com/ifili2025/web_AA.git"
+  },
+  "keywords": [
+    "Tallinna",
+    "Ülikool",
+    "DTI",
+    "veebiprogrammeerimine",
+    "Node.js",
+    "Express.js"
+  ],
+  "author": "Igor Filippov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifili2025/web_AA/issues"
+  },
+  "homepage": "https://github.com/ifili2025/web_AA#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
