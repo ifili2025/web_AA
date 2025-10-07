@@ -6,7 +6,7 @@ const tellDateET = function(){
 
 const tellWeekDayET = function(){
 	let timeNow = new Date();
-	const weekdayNamesEt = ["pühapäev", "esmaspä¤ev", "teisipäv", "kolmapäev", "neljapäev", "reede", "laupäev"];
+	const weekdayNamesEt = ["pühapäev", "esmaspäev", "teisipäv", "kolmapäev", "neljapäev", "reede", "laupäev"];
 	return weekdayNamesEt[timeNow.getDay()];
 }
 
