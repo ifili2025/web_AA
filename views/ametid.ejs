@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="et">
+<header>
+</header>
+<head>
+    <meta charset="utf-8">
+    <title>Igor Filippov, veebiprogrameerimine</title>
+</head>
+<body>
+ <img src= "/images/vp_banner_2025_AA.jpg" alt="Kursuse bänner">
+ <h1>Igor Filippov, veebiprogrammeerimine</h1>
+ <p>See leht on loodud <a href="https://www.tlu.ee">Tallinna Ülikoolis</a> veebiprogrammeerimise kursuse jaoks, ja ei oma mõistlikku sisu</p>
+ <hr>
+  <ul>
+    <li><a href="/">Avalehele</a></li>
+    <li><a href="/eestifilm">Eesti filmi avaleht</a></li>
+    <li><a href="/eestifilm/ametid/positsioonid_add">Uue positsiooni lisamine</a></li>
+ </ul>
+ <h2>Eesti filmiga seotud inimesed</h2>
+ <ul> <% personList.forEach(function(listItem){ %>
+    <li><%= listItem.position_name %>, kirjeldus: <%= listItem.description %> </li>
+    <% })%>
+ </ul>
+
+    
+</body>
+<footer>
+
+</footer>
+</html>
